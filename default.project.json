@@ -1,0 +1,32 @@
+{
+  "name": "project",
+  "tree": {
+    "$className": "DataModel",
+    "ServerScriptService": 
+    {
+      "$className": "ServerScriptService",
+      "HouseInstall":
+      {
+        "$className":"Folder",
+        "ServerScriptService" : {
+          "$className":"Folder",
+          "$path":"src/ServerScriptService/HouseInstall/ServerScriptService"
+        },
+        "ServerStorage" : {
+          "$className":"Folder",
+          "$path":"src/ServerScriptService/HouseInstall/ServerStorage"
+        },
+        "StarterGui" : {
+          "$className":"Folder",
+          "HouseModule": {
+            "$className":"Folder",
+            "Scripts":{
+              "$className":"Folder",
+              "$path":"src/ServerScriptService/HouseInstall/StarterGui/HouseModule/Scripts"
+            }
+          }
+        }
+      }
+    } 
+  }
+}
